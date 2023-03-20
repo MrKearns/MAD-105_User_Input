@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MAD-105_User_Input</string>
+    <string name="textTitle">Tip Calculator</string>
+    <string name="txtMealTotal">Total</string>
+    <string name="buttonTipCalc">Calculate Tip</string>
+    <string name="prompt">Enter total</string>
+    <string-array name="txtGroup">
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+    </string-array>
+</resources>
