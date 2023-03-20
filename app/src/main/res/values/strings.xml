@@ -5,6 +5,7 @@
     <string name="buttonTipCalc">Calculate Tip</string>
     <string name="prompt">Enter total</string>
     <string-array name="txtGroup">
+        <item>5%</item>
         <item>10%</item>
         <item>15%</item>
         <item>20%</item>

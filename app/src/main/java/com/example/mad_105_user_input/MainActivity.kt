@@ -11,6 +11,7 @@ import java.text.DecimalFormat
 
 class MainActivity : AppCompatActivity() {
 
+    val five = 0.005
     val ten = 0.010
     val fifteen = 0.015
     val twenty = 0.020
@@ -39,10 +40,11 @@ class MainActivity : AppCompatActivity() {
             tipChoice = group.selectedItemPosition
 
             tipPercent = when (tipChoice){
-                0 -> ten
-                1 -> fifteen
-                2 -> twenty
-                3 -> twentyFive
+                0 -> five
+                1 -> ten
+                2 -> fifteen
+                3 -> twenty
+                4 -> twentyFive
                 else -> fifteen
             }
 
